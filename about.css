@@ -1,8 +1,6 @@
 
-#header {
-    background-image: url(images/Nebula-logo-small.png);
-    height: 200px;
-    width: inherit;
+#logo-header {
+    max-width: 100%;
 }
 
 div {
