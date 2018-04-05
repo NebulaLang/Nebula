@@ -5,11 +5,11 @@
     width: inherit;
 }
 
-#nav-background {
+div {
     border-radius: 0;
 }
 
-div {
+#nav-background {
     border-radius: 0;
 }
 /* Remove the navbar's default margin-bottom and rounded borders */
