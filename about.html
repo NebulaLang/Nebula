@@ -38,9 +38,49 @@
   <div class="row content">
     <div class="col-sm-2 sidenav">
     </div>
-    <div class="col-sm-8 text-left">
+      <div class="col-sm-8 text-left">
       <h1>About Nebula</h1>
-      <p>texttexttexttexttexttexttexttexttexttexttexttext</p>
+      <h3>Features</h3>
+        <li><i>Dynamic</i>: Dynamically typed by default, but optional static typing can be enforced</li>
+        <li><i>Asynchronous</i>: Designed for asynchronous programming; can wait for events while retaining state</li>
+        <li>
+            <i>Functional</i>: The eager loading of parameters allows for the power of a functional language
+            but also the flexibility of an imperative language
+        </li>
+        <li>
+            <i>Object Oriented</i>: Editable properties can be attached to every
+            construct in the language, and these objects can be mutable or immutable
+        </li>
+        <li>
+            <i>Spatially Scoped</i>: Spatial programming is a brand new way of determining the realms within
+            which variables and objects exist
+        </li>
+      <h3>Hello, World!</h3>
+        <p>
+          Nebula's uniqueness is exemplified even by a simple "Hello, World!" program.  Before taking a look at the code,
+          consider the following symbol diagram:
+        </p>
+        <img src="images/hello_world.png" class="center-block" alt="Hello, World! symbolic diagram">
+        <p>
+          Because Nebula is intended to be an interactive programming language, seeing programs pictorally is often
+          helpful or even necessary.  This is because Nebula works differently than most other languages.  A Nebula
+          program is essentially a collection of linked nodes whose parameter values rely on the actions of other nodes.
+          In hello-world.star, the action begins at the Result statement. Realizing that it requires a value, the Result
+          statement queries its Control. The Control leads to a simple print function that does what you'd expect...
+          writes to stdout. The print function has its own parameter to satisfy, and as denoted by the diagram, it
+          has been linked to a primitive: the string "Hello, World!". Now, as the data ripples forward, the Result
+          statement's Control query is satisfied. Note that every construct in the program text has an associated
+          coordinate. This is because Nebula is built for programming in virtual reality. The location of every
+          construct in 3D space is important for the spatial scoping and visual layout of the language, so coordinate
+          tracking is necessary.  Here's the code for hello_world.star:
+        </p>
+        <img src="images/hello_world_star.png" class="center-block" alt="hello_world.star">
+      <h3>Symbol Key</h3>
+        <p>
+          Nebula programs should be drawn out and concepualized before being coded.  The following symbol key includes
+          all important symbols that can be used in Nebula diagrams.
+        </p>
+        <img src="images/symbol-key.png" class="center-block" alt="Nebula symbol key">
     </div>
     <div class="col-sm-2 sidenav">
     </div>
@@ -48,7 +88,7 @@
 </div>
 
 <footer class="container-fluid text-center">
-  <p>Footer Text</p>
+  <p>About Nebula</p>
 </footer>
 
 </body>
