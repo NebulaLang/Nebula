@@ -40,6 +40,7 @@ footer {
 
 .mr-3 {
     height: 100px;
+    display: inline;
 }
 
 #nebula-logo {
@@ -48,4 +49,5 @@ footer {
 
 p {
     font-size: 20px;
+    display: inline;
 }
