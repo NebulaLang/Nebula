@@ -36,7 +36,7 @@ footer {
   .row.content {height:auto;}
 }
 
-p{
+p, li{
     font-size: 20px;
 }
 

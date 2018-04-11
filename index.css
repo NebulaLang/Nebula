@@ -35,7 +35,7 @@ footer {
   .row.content {height:auto;}
 }
 
-.descrip {
+.descrip, li {
     font-size: 20px;
 }
 
