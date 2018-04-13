@@ -34,13 +34,14 @@ footer {
   .row.content {height:auto;}
 }
 
-.Eddie, .Alejandro, .Emily, .Brian, .Ben {
+.media-body {
     font-size: 20px;
 }
 
-.mr-3 {
-    height: 100px;
-    display: inline;
+.bio {
+    height: 150px;
+    display: block;
+    margin: 50px 30px 30px 0px;
 }
 
 #nebula-logo {
